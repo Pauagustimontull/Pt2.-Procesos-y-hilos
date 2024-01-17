@@ -25,7 +25,6 @@ public class Buscador {
         }
 
         int elementosPorHilo = tamañoVector / numeroHilos;
-        System.out.println(elementosPorHilo);
         // Crear hilos
         BuscadorThread[] hilos = new BuscadorThread[numeroHilos];
         for (int i = 0; i < numeroHilos - 1; i++) {
